@@ -1,4 +1,4 @@
-# Financial system with Spring Modulith
+# Financial System with Spring Modulith
 
 ---
 
