@@ -54,5 +54,11 @@ incomeexpense/
 
 ## 5. Endpoints REST
 
+**Create transaction**
+
+- POST /incomeexpense
+
+- Body (JSON):
+
 
 
