@@ -7,3 +7,13 @@ The IncomeExpense module is responsible for managing all basic financial transac
 It forms the basis for financial reporting, planning, and goals.
 
 --- 
+
+## 2. Responsibilities
+
+- Record cash inflows and outflows.
+
+- Maintain transactions in the database (PostgreSQL).
+
+- Expose REST endpoints for creation and querying.
+
+- Serve as a data source for other modules (planning, reports, goals).
