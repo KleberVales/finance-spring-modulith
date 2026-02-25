@@ -24,9 +24,9 @@ It forms the basis for financial reporting, planning, and goals.
 
 ```code
 incomeexpense/
- ├── package-info.java              # Declara o módulo (@ApplicationModule)
+ ├── package-info.java              # Declares the module (@ApplicationModule)
  ├── domain/
- │    ├── IncomeExpense.java        # Entidade JPA
+ │    ├── IncomeExpense.java        # JPA Entity
  │    └── Type.java                 # Enum (INCOME, EXPENSE)
  ├── repository/
  │    └── IncomeExpenseRepository.java
