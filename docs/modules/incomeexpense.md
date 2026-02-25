@@ -107,5 +107,7 @@ Response:
 
 - categories → each transaction can be linked to a category.
 
+- Bank accounts/credit cards → transactions may be associated with an account or card.
+
 
 
