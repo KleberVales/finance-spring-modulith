@@ -79,5 +79,29 @@ Response:
 }
 ```
 
+**List transactions:**
+
+- GET /incomeexpense
+
+- Response:
+```json
+[
+  {
+    "id": 1,
+    "amount": 2500.00,
+    "date": "2026-02-25",
+    "description": "Salário mensal",
+    "type": "INCOME"
+  },
+  {
+    "id": 2,
+    "amount": 150.75,
+    "date": "2026-02-24",
+    "description": "Supermercado",
+    "type": "EXPENSE"
+  }
+]
+```
+
 
 
