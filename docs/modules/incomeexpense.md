@@ -46,4 +46,6 @@ incomeexpense/
 
 - IncomeExpenseRepository: JPA interface for persistence.
 
+- IncomeExpenseService: business rules layer.
+
 
