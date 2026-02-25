@@ -111,5 +111,7 @@ Response:
 
 - Planning uses transaction data to compare planned vs. actual results.
 
+- reports → consolidates transactions to generate reports.
+
 
 
