@@ -109,5 +109,7 @@ Response:
 
 - Bank accounts/credit cards → transactions may be associated with an account or card.
 
+- Planning uses transaction data to compare planned vs. actual results.
+
 
 
