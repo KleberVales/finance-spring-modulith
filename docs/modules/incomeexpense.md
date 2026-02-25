@@ -48,4 +48,6 @@ incomeexpense/
 
 - IncomeExpenseService: business rules layer.
 
+- IncomeExpenseController: REST endpoints for interaction with the module.
+
 
