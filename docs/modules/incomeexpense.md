@@ -59,6 +59,14 @@ incomeexpense/
 - POST /incomeexpense
 
 - Body (JSON):
+```json
+{
+  "amount": 2500.00,
+  "date": "2026-02-25",
+  "description": "Salário mensal",
+  "type": "INCOME"
+}
+```
 
 
 
