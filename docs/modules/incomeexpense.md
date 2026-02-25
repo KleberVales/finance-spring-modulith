@@ -105,5 +105,7 @@ Response:
 
 ## 6. Dependencies with Other Modules
 
+- categories → each transaction can be linked to a category.
+
 
 
