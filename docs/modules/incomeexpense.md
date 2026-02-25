@@ -40,4 +40,6 @@ incomeexpense/
 
 ## 4. Main Classes
 
+- IncomeExpense: entity representing a transaction (value, date, description, type).
+
 
