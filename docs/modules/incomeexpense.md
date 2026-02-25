@@ -109,9 +109,11 @@ Response:
 
 - Bank accounts/credit cards → transactions may be associated with an account or card.
 
-- Planning uses transaction data to compare planned vs. actual results.
+- Planning → uses transaction data to compare planned vs. actual results.
 
 - reports → consolidates transactions to generate reports.
+
+- Goals → measures progress toward goals based on transactions.
 
 
 
