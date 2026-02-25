@@ -42,4 +42,6 @@ incomeexpense/
 
 - IncomeExpense: entity representing a transaction (value, date, description, type).
 
+- Type: enum that differentiates revenue (INCOME) from expense (EXPENSE).
+
 
