@@ -21,3 +21,17 @@ It forms the basis for financial reporting, planning, and goals.
 ---
 
 ## 3. Package Structure
+
+```code
+incomeexpense/
+ ├── package-info.java              # Declara o módulo (@ApplicationModule)
+ ├── domain/
+ │    ├── IncomeExpense.java        # Entidade JPA
+ │    └── Type.java                 # Enum (INCOME, EXPENSE)
+ ├── repository/
+ │    └── IncomeExpenseRepository.java
+ ├── service/
+ │    └── IncomeExpenseService.java
+ └── controller/
+      └── IncomeExpenseController.java
+```
