@@ -17,3 +17,7 @@ It forms the basis for financial reporting, planning, and goals.
 - Expose REST endpoints for creation and querying.
 
 - Serve as a data source for other modules (planning, reports, goals).
+
+---
+
+## 3. Package Structure
