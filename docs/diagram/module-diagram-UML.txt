@@ -1,0 +1,50 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                         CORE (Módulo Base)                      │
+│  ┌────────────┐    ┌────────────┐    ┌──────────────────────┐   │
+│  │   User     │    │ Transaction│    │       Account        │   │
+│  │            │    │            │    │  ├── BankAccount     │   │
+│  │            │    │            │    │  └── CreditCard      │   │
+│  └────────────┘    └────────────┘    └──────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
+                              ▲
+                              │ Herda/Estende
+                ┌─────────────┴────────────────┐
+                │                              │
+    ┌───────────┴───────────┐       ┌───────────┴───────────┐
+    │    bankaccounts       │       │     creditcards       │
+    │  (Especialização de   │       │   (Especialização de  │
+    │       Account)        │       │       Account)        │
+    └───────────────────────┘       └───────────────────────┘
+                ▲                               ▲
+                └───────────────┬───────────────┘
+                                │
+                    ┌───────────┴───────────┐
+                    │      categories       │
+                    │   (Classificação)     │
+                    └───────────┬───────────┘
+                                │
+                    ┌───────────▼───────────┐
+                    │     incomeexpense     │◄─────────────────┐
+                    │  (Receitas e Despesas)│                  │
+                    └───────────┬───────────┘                  │
+                                │ Usa dados de                 │
+                    ┌───────────▼───────────┐                  │
+                    │       planning        │                  │
+                    │(Planejado vs Realizado)│                 │
+                    └───────────┬───────────┘                  │
+                                │                              │
+                    ┌───────────▼───────────┐                  │
+                    │         goals         │──────────────────┘
+                    │       (Metas)         │   Conecta-se para
+                    └───────────┬───────────┘   medir progresso
+                                │
+            ┌───────────────────┼───────────────────┐
+            │                   │                   │
+┌───────────▼───────────┐ ┌─────▼───────┐ ┌────────▼────────┐
+│       reports         │ │ notifications│ │   integration  │
+│     (Dashboards)      │ │  (Alertas)   │ │ (Open Finance) │
+└───────────────────────┘ └─────────────┘ └─────────────────┘
+      Consome dados de         │ Dispara alertas    │ Futuro módulo
+      todos os módulos         │ baseados em        │ que alimentará
+                               │ incomeexpense,     │ bankaccounts e
+                               │ planning e goals   │ creditcards
