@@ -44,4 +44,6 @@ incomeexpense/
 
 - Type: enum that differentiates revenue (INCOME) from expense (EXPENSE).
 
+- IncomeExpenseRepository: JPA interface for persistence.
+
 
