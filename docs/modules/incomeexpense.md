@@ -54,5 +54,66 @@ incomeexpense/
 
 ## 5. Endpoints REST
 
+**Create transaction**
+
+- POST /incomeexpense
+
+- Body (JSON):
+```json
+{
+  "amount": 2500.00,
+  "date": "2026-02-25",
+  "description": "Salário mensal",
+  "type": "INCOME"
+}
+```
+
+Response:
+```json
+{
+  "id": 1,
+  "amount": 2500.00,
+  "date": "2026-02-25",
+  "description": "Salário mensal",
+  "type": "INCOME"
+}
+```
+
+**List transactions:**
+
+- GET /incomeexpense
+
+- Response:
+```json
+[
+  {
+    "id": 1,
+    "amount": 2500.00,
+    "date": "2026-02-25",
+    "description": "Salário mensal",
+    "type": "INCOME"
+  },
+  {
+    "id": 2,
+    "amount": 150.75,
+    "date": "2026-02-24",
+    "description": "Supermercado",
+    "type": "EXPENSE"
+  }
+]
+```
+
+## 6. Dependencies with Other Modules
+
+- categories → each transaction can be linked to a category.
+
+- Bank accounts/credit cards → transactions may be associated with an account or card.
+
+- Planning → uses transaction data to compare planned vs. actual results.
+
+- reports → consolidates transactions to generate reports.
+
+- Goals → measures progress toward goals based on transactions.
+
 
 
