@@ -4,6 +4,8 @@ A financial application built with Spring Boot using Spring Modulith architectur
 
 This project demonstrates how to structure and scale a Spring application using modules while keeping a single deployable artifact.
 
+## 🚀 Features
+
 ---
 
 ## ✉️ Contact
