@@ -1,5 +1,7 @@
 # Financial System with Spring Modulith
 
+A financial application built with Spring Boot using Spring Modulith architecture — a modular monolith approach to organizing domain-centric services + business logic.
+
 ---
 
 ## ✉️ Contact
