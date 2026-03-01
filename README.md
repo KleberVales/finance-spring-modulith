@@ -9,6 +9,7 @@ This project demonstrates how to structure and scale a Spring application using 
 - Modular monolith architecture using Spring Modulith
 - Domain-driven module organization
 - Event-driven communication between modules
+- Individual module unit & integration testing
 
 ---
 
