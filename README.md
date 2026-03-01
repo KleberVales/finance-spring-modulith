@@ -6,6 +6,8 @@ This project demonstrates how to structure and scale a Spring application using 
 
 ## 🚀 Features
 
+- Modular monolith architecture using Spring Modulith
+
 ---
 
 ## ✉️ Contact
