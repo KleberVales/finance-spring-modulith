@@ -21,6 +21,7 @@ Benefits include:
 - Better maintainability and code organization
 - Reduced coupling between domains
 - Module-level testing support
+- Clear domain boundaries and event interaction
 
 ---
 
