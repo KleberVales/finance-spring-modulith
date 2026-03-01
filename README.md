@@ -25,6 +25,17 @@ Benefits include:
 
 ## 📦 Project Structure
 
+```text
+finance-spring-modulith/
+├── src/
+│   ├── main/java/...   // application modules
+│   ├── test/java/...   // module integration tests
+├── docs/               // architecture docs (if any)
+├── docker-compose.yml  // for local development
+├── build.gradle
+└── README.md
+```
+
 ---
 
 ## ✉️ Contact
