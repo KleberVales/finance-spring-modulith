@@ -30,7 +30,7 @@ finance-spring-modulith/
 ├── src/
 │   ├── main/java/...   // application modules
 │   ├── test/java/...   // module integration tests
-├── docs/               // architecture docs (if any)
+├── docs/               // architecture docs 
 ├── docker-compose.yml  // for local development
 ├── build.gradle
 └── README.md
