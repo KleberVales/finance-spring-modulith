@@ -20,6 +20,7 @@ Benefits include:
 
 - Better maintainability and code organization
 - Reduced coupling between domains
+- Module-level testing support
 
 ---
 
