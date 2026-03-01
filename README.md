@@ -12,6 +12,8 @@ This project demonstrates how to structure and scale a Spring application using 
 - Individual module unit & integration testing
 - Docker support with compose for easy setup
 
+## 🧱 What is Spring Modulith?
+
 ---
 
 ## ✉️ Contact
