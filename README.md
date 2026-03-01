@@ -10,6 +10,7 @@ This project demonstrates how to structure and scale a Spring application using 
 - Domain-driven module organization
 - Event-driven communication between modules
 - Individual module unit & integration testing
+- Docker support with compose for easy setup
 
 ---
 
