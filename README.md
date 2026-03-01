@@ -19,6 +19,7 @@ Spring Modulith helps you structure Spring Boot applications into logical module
 Benefits include:
 
 - Better maintainability and code organization
+- Reduced coupling between domains
 
 ---
 
