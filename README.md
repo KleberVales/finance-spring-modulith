@@ -16,6 +16,8 @@ This project demonstrates how to structure and scale a Spring application using 
 
 Spring Modulith helps you structure Spring Boot applications into logical modules with clear boundaries — combining the benefits of a monolith with modular organization patterns.
 
+Benefits include:
+
 ---
 
 ## ✉️ Contact
