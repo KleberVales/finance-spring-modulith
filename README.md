@@ -23,6 +23,8 @@ Benefits include:
 - Module-level testing support
 - Clear domain boundaries and event interaction
 
+## 📦 Project Structure
+
 ---
 
 ## ✉️ Contact
