@@ -50,4 +50,3 @@ Java & Spring Software Engineer
 
 Cloud | DevOps | Microservices | Git/Github | Docker | Kubernetes | Scrum | Generative AI | Event-driven architecture
 
-Software engineer
