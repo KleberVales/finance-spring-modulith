@@ -48,5 +48,5 @@ Redes: [LinkedIn](https://www.linkedin.com/in/klebervales) | [GitHub](https://gi
 
 Java & Spring Software Engineer
 
-Cloud | DevOps | Microservices | Git/Github 
+Cloud | DevOps | Microservices
 
