@@ -37,5 +37,3 @@ finance-spring-modulith/
 ```
 
 ---
-
-## 
