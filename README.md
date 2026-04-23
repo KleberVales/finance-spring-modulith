@@ -39,5 +39,3 @@ finance-spring-modulith/
 ---
 
 ## ✉️ Contact
-
-Email: 
