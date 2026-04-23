@@ -40,4 +40,4 @@ finance-spring-modulith/
 
 ## ✉️ Contact
 
-Email: klebervales.dev@gmail.com
+Email: klebervales
